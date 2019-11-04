@@ -173,7 +173,7 @@ include "serv/cmd.php";
         </div>
         <h1 style="padding: 4px;border-bottom: solid 2px gray">Fountain Of Joy</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus numquam velit asperiores dolor eligendi deleniti unde hic eos commodi? Corporis ipsum suscipit doloremque vel, iusto sapiente esse fugiat natus magnam ea earum nisi illo accusantium sit eveniet similique. Commodi!
+          No Information Given
         </p>
         <div>
           <h3 style="padding: 4px;border-bottom: solid 2px gray">MEETING DAYS</h3>
@@ -244,7 +244,7 @@ include "serv/cmd.php";
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">Fountain Of Joy</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
+            <p>No Information Given</p>
             <p><div class="bn text-uppercase btn btn-primary pill px-4">More Info<span style="margin-left: 10px" class="icon-arrow-right small"></span></div></p>
           </div>
         </div>
