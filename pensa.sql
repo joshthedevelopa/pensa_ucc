@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 23, 2019 at 07:05 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Nov 04, 2019 at 10:20 AM
+-- Server version: 10.4.8-MariaDB
+-- PHP Version: 7.3.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -97,6 +97,7 @@ CREATE TABLE `sermons` (
   `s_id` int(11) NOT NULL,
   `s_title` varchar(100) NOT NULL,
   `s_sermon` varchar(100) NOT NULL,
+  `s_pic` varchar(100) NOT NULL,
   `s_author` varchar(50) NOT NULL,
   `s_msg` text NOT NULL,
   `s_type` varchar(20) DEFAULT NULL,
@@ -115,13 +116,6 @@ CREATE TABLE `testimonies` (
   `t_msg` text DEFAULT NULL,
   `t_pic` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `testimonies`
---
-
-INSERT INTO `testimonies` (`t_id`, `t_author`, `t_msg`, `t_pic`) VALUES
-(1, 'Josh', 'Josh', 'fin_sec.jpg');
 
 --
 -- Indexes for dumped tables
@@ -189,7 +183,7 @@ ALTER TABLE `sermons`
 -- AUTO_INCREMENT for table `testimonies`
 --
 ALTER TABLE `testimonies`
-  MODIFY `t_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `t_id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

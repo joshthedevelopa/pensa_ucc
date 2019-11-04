@@ -12,18 +12,19 @@ function rec_sermons(){
     
     while($results = mysqli_fetch_array($query)) {
         echo '
-            <div class="col-md-4 col-12 text-center mb-3">
-                <h3 class="h5"><span class="text-uppercase">&ldquo;'.$results['s_title'].'&rdquo;</span> &mdash; <span class="small"><em>by</em> '.$results['s_title'].'</span></h3>
+            <div class="col-md-4 col-4 text-center mb-3">
+                <h3 class="h5"><span class="text-uppercase">&ldquo;'.$results['s_title'].'&rdquo;</span> &mdash; <span class="small"><br><em>by </em> '.$results['s_author'].'</span></h3>
             
                 <div class="col-12">
-                    <span class="mb-3 d-block post-date">2019-08-23</span> <a href="assets/audio/sermons/'.$results['s_sermon'].'"></a>
                     <div class="player">
-                        <audio id="player2" preload="none" controls style="max-width: 100%">
+                        <audio id="player2" preload="none" controls style="width: 100%">
                             <source src="assets/audio/sermons/'.$results['s_sermon'].'?>" type="audio/mp3">
                         </audio>
                     </div>
                 </div>
-                <a href="assets/audio/sermons/'.$results['s_sermon'].'" download><div class="btn">Download</div></a>
+                <div class="col-12" style="margin-top: 10px;">
+                <a href="assets/audio/sermons/'.$results['s_sermon'].'?>" download><div class="btn btn-primary">Download</div></a>
+                </div>
             </div>
         ';
     } 
@@ -40,21 +41,20 @@ function sermons($target) {
         
         while($results = mysqli_fetch_array($query)){
             echo '
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                <div class="media-with-text">
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="media-with-text">
                     <div class="" style="width: 300px; heigth: 300px;margin-bottom: 30px;">
                         <a href="'.$results['s_sermon'].'" class="popup-vimeo image-play">
-                            <span class="icon-wrap">
-                                <span class="icon icon-play"></span>
-                            </span>
-                            <img src="assets/img/sermons/'.$results['s_pic'].'" alt="" class="img-fluid" style="width: 300px;height: 250px;">
+                            <iframe style="width: 100%; height: 100%"
+                            src="'.$results['s_sermon'].'" frameborder="0" allowfullscreen>
+                            </iframe> 
                         </a>
                     </div>
                     <h2 class="heading mb-0"><a href="#">'.$results['s_title'].'</a></h2>
                     <span class="mb-3 d-block post-date">'.$results['s_date'].' &bullet; By <a href="#">'.$results['s_author'].'</a></span>
                     <p>'.$results['s_msg'].'</p>
+                    </div> 
                 </div>
-            </div>   
             ';
         }
     }else{
@@ -64,7 +64,7 @@ function sermons($target) {
         while($results = mysqli_fetch_array($query)){
             echo '
                 <div class="col-md-4 col-4 text-center mb-3">
-                    <h3 class="h5"><span class="text-uppercase">&ldquo;'.$results['s_title'].'&rdquo;</span> &mdash; <span class="small"><em>by</em> '.$results['s_author'].'</span></h3>
+                    <h3 class="h5"><span class="text-uppercase">&ldquo;'.$results['s_title'].'&rdquo;</span> &mdash; <span class="small"><br><em>by </em> '.$results['s_author'].'</span></h3>
                 
                     <div class="col-12">
                         <div class="player">
@@ -72,6 +72,9 @@ function sermons($target) {
                                 <source src="assets/audio/sermons/'.$results['s_sermon'].'?>" type="audio/mp3">
                             </audio>
                         </div>
+                    </div>
+                    <div class="col-12" style="margin-top: 10px;">
+                    <a href="assets/audio/sermons/'.$results['s_sermon'].'?>" download><div class="btn btn-primary">Download</div></a>
                     </div>
                 </div>
             ';
@@ -98,17 +101,18 @@ function events($num,$page){
             echo '
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                     <div class="media-with-text">
-                        <div class="" style="width: 300px; heigth: 300px;margin-bottom: 30px;">
-                            <a href="'.$results['e_vid'].'" class="popup-vimeo image-play">
-                            <span class="icon-wrap">
-                                <span class="icon icon-play"></span>
-                            </span>
-                                <img src="assets/img/events/'.$results['e_pic'].'" alt="" class="img-fluid" style="width: 300px;height: 250px;">
-                            </a>
-                        </div>
-                        <h2 class="heading mb-0"><a href="#">'.$results['e_title'].'</a></h2>
-                        <span class="mb-3 d-block post-date">'.$results['e_date'].' &bullet; At <a href="#">'.$results['e_loc'].'</a></span>
-                        <p>'.$results['e_msg'].'</p>
+                    <div class="" style="width: 300px; heigth: 300px;margin-bottom: 30px;">
+                        <a href="'.$results['e_vid'].'" class="popup-vimeo image-play">
+                            <iframe style="width: 100%; height: 100%"
+                            src="'.$results['e_vid'].'" frameborder="0" allowfullscreen>
+                            </iframe> 
+                        </a>
+                        <!-- <iframe width="853" height="480" src="https://www.youtube.com/embed/Zbow21FKJS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            https://youtu.be/Zbow21FKJS4 -->
+                    </div>
+                    <h2 class="heading mb-0"><a href="#">'.$results['e_title'].'</a></h2>
+                    <span class="mb-3 d-block post-date">'.$results['e_date'].' &bullet; At <a href="#">'.$results['e_loc'].'</a></span>
+                    <p>'.$results['e_msg'].'</p>
                     </div> 
                 </div>
             ';

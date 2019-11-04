@@ -124,7 +124,7 @@ include 'serv/cmd.php';
         </div>
 
 
-        <div class="nonloop-block-15 owl-carousel">
+        <div class="row">
 
           <?php upcomingEvents(3)?>
 
@@ -250,8 +250,8 @@ include 'serv/cmd.php';
 
         <div class="nonloop-block-15 owl-carousel">
 
-          <?php //events(5, "")?>
-          <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+          <?php events(5, "")?>
+          <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
             <div class="media-with-text">
               <div class="" style="width: 300px; heigth: 300px;margin-bottom: 30px;">
                   <a href="https://youtu.be/Zbow21FKJS4" class="popup-vimeo image-play">
@@ -259,14 +259,13 @@ include 'serv/cmd.php';
                     src="https://www.youtube.com/embed/Zbow21FKJS4" frameborder="0" allowfullscreen>
                     </iframe> 
                   </a>
-                  <!-- <iframe width="853" height="480" src="https://www.youtube.com/embed/Zbow21FKJS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    https://youtu.be/Zbow21FKJS4 -->
+            
               </div>
               <h2 class="heading mb-0"><a href="#"></a></h2>
               <span class="mb-3 d-block post-date"> &bullet; At <a href="#"></a></span>
               <p></p>
             </div> 
-          </div>
+          </div> -->
 
         </div>
 
