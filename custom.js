@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    $(".clsWeCare").click(function() {
+        $(".modelBox").fadeOut(400);
+    })
+    $(".actWeCare").click(function() {
+        $(".modelBox").fadeIn(400);
+    })
+
     $("#leadersTable").DataTable();
     $(".closeNewsContainer").click(function() {$(this).parent().slideUp(800)});
     $(".newsPop").click(function() {$(".bgPop").fadeIn(800)});

@@ -35,7 +35,7 @@
 
         <div class="row">
           <div class="col-md-4">
-            <h3 class="footer-heading mb-4 text-white">Related Course</h3>
+            <h3 class="footer-heading mb-4 text-white">Related Links</h3>
               <ul class="list-unstyled">
                 <li><a href="https://thecophq.org">Church of Pentecost</a></li>
                 <li><a href="https://penteagle.org">Youth Ministry</a></li>
@@ -62,7 +62,7 @@
 
           
           <div class="col-md-2">
-            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Icons</h3></div>
+            <div class="col-md-12"><h3 class="footer-heading mb-4 text-white">Social Media</h3></div>
               <div class="col-md-12">
                 <p>
                   <a href="https://facebook.com/pensaucc" class="pb-2 pr-2 pl-0"><span class="icon-facebook"></span></a>

@@ -45,41 +45,29 @@
     <?php include "serv/header.php"?>
   
     <div style="height: 113px;"></div>
+  
     <div class="slide-one-item home-slider owl-carousel">
       
-      
-
-    <div class="site-blocks" style="margin-top: 40px;height: 100px;background-image: url(images/about_us.jpg);background-size: 100%;background-repeat: no-repeat">
+      <div class="site-blocks" style="font-weight: 700;letter-spacing: 4px;margin-top: 40px;padding-bottom: 30px;">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center">
+                <h1>ABOUT US</h1>
             </div>
           </div>
         </div>
       </div> 
-    </div>
 
+
+    </div>
     
-    <div class="site-section">
+    <div class="site-section bg-light">
       <div class="container">
         <div class="row align-items-center">
-          <!-- <div class="col-md-6 mb-5 mb-md-0">
-            
-              <div class="img-border">
-                <a href="video/mat.mp4" class="popup-vimeo image-play">
-                  <span class="icon-wrap">
-                    <span class="icon icon-play"></span>
-                  </span>
-                  <img src="images/about_3.jpg" alt="" class="img-fluid">
-                </a>
-              </div>
-            
-          </div> -->
-          <div style="align" class="ml-auto">
+          <div style="text-align: left">
             <h2 class="h2 mb-3">About Our Church</h2>
-            <p class="h5 mb-3">We are helping people with the Cretor!</p>
-            <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nisi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nobis magni eaque velit eum, id rem eveniet dolor possimus voluptas..</p>
-            <p><a href="video/mat.mp4" class="popup-vimeo text-uppercase">Watch Video <span class="icon-arrow-right small"></span></a></p>
+            <p class="h5 mb-3">We are helping people with the Creator!</p>
+            <p class="mb-4"></p>
           </div>
         </div>
       </div>
@@ -91,10 +79,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-5 mb-5 mb-lg-0 order-1">
-            <h2 class="mb-3 text-uppercase">Pastor's <strong class="text-black font-weight-bold">Dedication</strong></h2>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusamus, rerum illo facilis reiciendis.</p>
+            <h2 class="mb-3 text-uppercase">Traveling Secretary <strong class="text-black font-weight-bold"></strong></h2>
+            <p class="lead">
+              <b>Name:  </b><span>Pastor Frank Akonnor</span><br>
+              <b>Email: </b><span>frankakonnor27@yahoo.com</span><br>
+              <b>Phone: </b><span>(233) 24 426 0607</span>
+            </p>
             <p class="mb-4">Iste aut dolorem veritatis saepe nesciunt distinctio voluptas sapiente sunt perspiciatis autem minima, iure provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, quas.</p>
-            <p><a href="#" class="btn btn-primary pill px-4">Read More</a></p>
           </div>
           <div class="col-md-8 col-lg-4 mr-auto order-2">
             <img src="images/pastor.jpg" alt="Image" class="img-fluid">
@@ -103,7 +94,7 @@
       </div>
     </div>
 
-    <div class="site-section site-block-feature bg-light">
+    <!-- <div class="site-section site-block-feature bg-light">
       <div class="container">
         <div class="d-block d-md-flex border-bottom">
           <div class="text-center p-4 item border-right">
@@ -134,7 +125,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 <!--
     <div class="site-section">

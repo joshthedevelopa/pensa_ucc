@@ -59,11 +59,11 @@ include "serv/cmd.php";
       
       
 
-      <div class="site-blocks" style="margin-top: 40px;height: 100px;background-image: url(images/sermon.jpg);background-size: 100%;background-repeat: no-repeat">
+      <div class="site-blocks" style="font-weight: 700;letter-spacing: 4px;margin-top: 40px;padding-bottom: 30px;">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center">
-
+                <h1>SERMONS</h1>
             </div>
           </div>
         </div>

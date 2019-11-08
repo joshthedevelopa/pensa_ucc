@@ -94,14 +94,14 @@
 }
 
 .tableRow table thead {
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     font-weight: 700;
     border-bottom: 1px solid gray 
 }
 
 .tableRow table tfoot {
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     font-weight: 700;
     border-top: 1px solid gray 

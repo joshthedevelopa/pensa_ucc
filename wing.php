@@ -60,10 +60,12 @@ include "serv/cmd.php";
       
       
 
-    <div class="site-blocks" style="margin-top: 40px;height: 100px;background-image: url(images/wings.jpg);background-size: 100%;background-repeat: no-repeat">
+  
+    <div class="site-blocks" style="font-weight: 700;letter-spacing: 4px;margin-top: 40px;padding-bottom: 30px;">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center">
+                <h1>WINGS</h1>
             </div>
           </div>
         </div>
@@ -79,16 +81,15 @@ include "serv/cmd.php";
         </div>
         <h1 style="padding: 4px;border-bottom: solid 2px gray">Prayer Wing</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus numquam velit asperiores dolor eligendi deleniti unde hic eos commodi? Corporis ipsum suscipit doloremque vel, iusto sapiente esse fugiat natus magnam ea earum nisi illo accusantium sit eveniet similique. Commodi!
+          The Prayer Force wing is the prayer arm of the church. The wing interceeds for the church, university community, the country and the world at large. The wing organizes programs like retreat, half and all night services and other programs that will build members spiritually;
+
         </p>
         <div>
           <h3 style="padding: 4px;border-bottom: solid 2px gray">MEETING DAYS</h3>
-          <h4>Sundays</h4>
-          <p>8:00pm - 4:20pm</p>
-          <h4>Tuesdays</h4>
-          <p>4:00pm - 6:00pm</p>
           <h4>Wednesday</h4>
-          <p>6:00am - 6:00pm</p>
+          <p>6:30pm - 8:00pm</p>
+          <h4>Saturday</h4>
+          <p>6:30pm - 8:00pm @ Amamoma Field</p>
         </div>
     </div>
 
@@ -153,16 +154,34 @@ include "serv/cmd.php";
         </div>
         <h1 style="padding: 4px;border-bottom: solid 2px gray">Evangelism Wing</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos natus numquam velit asperiores dolor eligendi deleniti unde hic eos commodi? Corporis ipsum suscipit doloremque vel, iusto sapiente esse fugiat natus magnam ea earum nisi illo accusantium sit eveniet similique. Commodi!
+          Evangelism is a call to be sent to propagate the gospel message.  The evangelism wing seeks to make known of Christ to all nations as assigned by Jesus Christ our Lord. (Matthew 28:18-20., Matthew 24:14. Mark 16:15-16, John 3:16)<br>
+
+          A. Hall to Hall evangelism; The evangelism wing visits all the various halls on UCC Campus to share the word of God with the student body to rescue the lost. <br>
+
+          B .School outreach; The school coordinating department embarks on both SHS  & Basic School teaching services to ensure that all PENSA objectives are  implemented . This is to keep the faith of the church among the youth. <br>
+
+          C. Hospital Visitation; 
+          As part of our duties we go the  University  Hospital every Friday dawn to pray for the sick and share the word of God with them . <br>
+
+          D. Prisons Visitation; 
+          Also we propagate the gospel to the inmate in Ankaful prisons  both Annex and Maximum prisons department. We also make donation as part of our objectives in showing kindness  to the  needy. <br>
+
+          E. Radio Program;
+          The evangelism wing spearheads a program on ATL FM 100.5MHz which is captioned "Hour of Hope ". This program seeks to rescue the perishing through the media and give hope to the lost. <br>
+
+          F. Children Ministry;
+          The Children ministry under the evangelism wing seeks to nurture children for Christ. <br>
+
+          <b><i>#Each One !!  Reach One !!!</i></b><br>
+          <b><i>#Our mandate !! Is to rescue theperishing !!!</i></b>
+          <b><i># Sons of God!!! March Forward!!!</i></b>
         </p>
         <div>
           <h3 style="padding: 4px;border-bottom: solid 2px gray">MEETING DAYS</h3>
-          <h4>Sundays</h4>
-          <p>8:00pm - 4:20pm</p>
-          <h4>Tuesdays</h4>
-          <p>4:00pm - 6:00pm</p>
           <h4>Wednesday</h4>
-          <p>6:00am - 6:00pm</p>
+          <p>6:30pm - 8:00pm @ Amamoma Field</p>
+          <h4>Saturday</h4>
+          <p>3:00pm - 5:00pm @ Apewosika CoP</p>
         </div>
     </div>
 
@@ -177,12 +196,13 @@ include "serv/cmd.php";
         </p>
         <div>
           <h3 style="padding: 4px;border-bottom: solid 2px gray">MEETING DAYS</h3>
-          <h4>Sundays</h4>
-          <p>8:00pm - 4:20pm</p>
-          <h4>Tuesdays</h4>
-          <p>4:00pm - 6:00pm</p>
           <h4>Wednesday</h4>
-          <p>6:00am - 6:00pm</p>
+          <p>6:30pm - 8:30pm @Casford Field</p>
+          <h4>Saturday</h4>
+          <p>9:30am - 11:30am @CRT (Evergreen Choir)</p>
+          <p>12:00noon - 2:00pm @CRT (FPWT)</p>
+          <p>2:30pm - 4:30pm @CRT (Aroma Theatre)</p>
+  
         </div>
     </div>
 
@@ -190,12 +210,11 @@ include "serv/cmd.php";
       <!-- Executive_ begin-->
 
     <div id="pw" class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/hero_bg_3.jpg');"></div>
+        <div class="image bg-image" style="background-image: url('images/prayer_force.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">Prayer Wing</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque    officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore,          corporis, velit.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam sint dolore nobis libero 
+            <p>The Prayer Force wing is the prayer arm of the church. The wing interceeds for the church, university community...
             </p>
             <p><div class="bn text-uppercase btn btn-primary pill px-4">More Info<span style="margin-left: 10px" class="icon-arrow-right small"></span></div></p>
           </div>
@@ -203,7 +222,7 @@ include "serv/cmd.php";
       </div>
 
       <div id="bw" class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_3.jpg');"></div>
+        <div class="image bg-image order-2" style="background-image: url('images/biblestudy.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">Bible study Wing</h2>
@@ -216,11 +235,13 @@ include "serv/cmd.php";
       </div>
 
       <div id="ew" class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/hero_bg_3.jpg');"></div>
+        <div class="image bg-image" style="background-image: url('images/evangelism.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">Evangelism Wing</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio autem dolorem vero asperiores itaque officia, assumenda sapiente iste, labore unde nulla facilis fugiat non iure nobis veritatis! Labore, corporis, velit.</p>
+            <p>
+              Evangelism is a call to be sent to propagate the gospel message.  The evangelism wing seeks to make known of Christ to all nations as assigned by Jesus Christ our Lord. (Matthew 28:18-20., Matthew 24:14. Mark 16:15-16, John 3:16)...
+            </p>
             <p><div class="bn text-uppercase btn btn-primary pill px-4">More Info<span style="margin-left: 10px" class="icon-arrow-right small"></span></div></p>
           </div>
         </div>
@@ -240,7 +261,7 @@ include "serv/cmd.php";
       </div>
 
       <div id="cw" class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/hero_bg_3.jpg');"></div>
+        <div class="image bg-image" style="background-image: url('images/foj.jpg');background-size: cover;"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">Fountain Of Joy</h2>

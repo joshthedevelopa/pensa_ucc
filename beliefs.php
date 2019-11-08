@@ -52,15 +52,17 @@ include "serv/cmd.php";
     <?php include "serv/header.php"?>
     
   
+    <div style="height: 80px;"></div>
     
     <div class="slide-one-item home-slider owl-carousel">
       
       
 
-    <div class="site-blocks" style="height: 100px;background-image: url(images/beliefs.jpg);background-size: 100%;background-repeat: no-repeat">
+      <div class="site-blocks" style="font-weight: 700;letter-spacing: 4px;margin-top: 40px;padding-bottom: 30px;">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-7 text-center">
+                <h1>BELIEFS</h1>
             </div>
           </div>
         </div>
@@ -70,25 +72,28 @@ include "serv/cmd.php";
   
       <!-- Belief of the church_ begin-->
       <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_3.jpg');"></div>
-        <div class="text">
+        <div class="text order-2">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">THE ONE TRUE GOD</h2>
+            <p>We believe in the existence of the One True God, Elohim, Maker of the whole universe; indefinable, but revealed as the Triune God – Father, Son and Holy Spirit – One in nature, essence and attributes, Omniscient, Omnipotent and Omnipresent. (Gen. 1:1; Matt 3:1617;28:19; 2Cor 13:14;). </p>
+          </div>
+        
+        </div>
+        <div class="text bg-light">
           <div class="section-heading text-left">
             <h2 class="mb-5">THE BIBLE</h2>
             <p>We believe in the divine inspiration and authority of the Holy Bible. We believe that the Bible is infallible in its declaration, final in its authority, all-sufficient in its provisions and comprehensive in its sufficiency        (2 Tim 3:16; 2Pet. 1:21)</p>
           </div>
         </div>
       </div>
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/one_true_god.jpg');"></div>
-        <div class="text">
+        <div class="text order-2 bg-light">
           <div class="section-heading text-left">
-            <h2 class="mb-5">THE ONE TRUE GOD</h2>
-            <p>We believe in the existence of the One True God, Elohim, Maker of the whole universe; indefinable, but revealed as the Triune God – Father, Son and Holy Spirit – One in nature, essence and attributes, Omniscient, Omnipotent and Omnipresent. (Gen. 1:1; Matt 3:1617;28:19; 2Cor 13:14;). </p>
+            <h2 class="mb-5"> THE SAVIOUR</h2>
+            <p>We believe that man needs a Saviour. This need has been met in the person of Jesus Christ for the following reasons:  His deity, virgin birth, sinless life, atoning death, resurrection and ascension, His abiding intercession and Second coming to judge the living and the dead (Matt 1:21; Jn. 4:42; Eph. 5:23; Phil 2:6-11) </p>
           </div>
         </div>
-      </div>
-      <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/man_deprived_nature.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">MAN’S DEPRAVED NATURE</h2>
@@ -96,26 +101,30 @@ include "serv/cmd.php";
           </div>
         </div>
       </div>
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/the_saviour.jpg');"></div>
-        <div class="text">
+        <div class="text order-2">
+          <div class="section-heading text-left">
+            <h2 class="mb-5">REPENTANCE, REGENERATION, JUSTIFICATION AND SANCTIFICATION</h2>
+            <p>We believe all men have to repent of and confess their sins before God, and believe in the vicarious death of Jesus Christ to be justified before God. We believe in the sanctification of the believer through the working of the Holy Spirit, and in God’s gift of Eternal Life to the believer. (Luke 15: 7; Acts 2:38; Rom 4:25, 5:16; 1Cor. 1:30; 1Thes 4:3)</p>
+          </div>
+        </div>
+        <div class="text bg-light">
           <div class="section-heading text-left">
             <h2 class="mb-5"> THE SAVIOUR</h2>
             <p>We believe that man needs a Saviour. This need has been met in the person of Jesus Christ for the following reasons:  His deity, virgin birth, sinless life, atoning death, resurrection and ascension, His abiding intercession and Second coming to judge the living and the dead (Matt 1:21; Jn. 4:42; Eph. 5:23; Phil 2:6-11) </p>
           </div>
         </div>
       </div>
+    
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/repentance.jpg');"></div>
-        <div class="text">
+        <div class="text order-2 bg-light">
           <div class="section-heading text-left">
-            <h2 class="mb-5">REPENTANCE, REGENERATION, JUSTIFICATION AND SANCTIFICATION</h2>
-            <p>We believe all men have to repent of and confess their sins before God, and believe in the vicarious death of Jesus Christ to be justified before God. We believe in the sanctification of the believer through the working of the Holy Spirit, and in God’s gift of Eternal Life to the believer. (Luke 15: 7; Acts 2:38; Rom 4:25, 5:16; 1Cor. 1:30; 1Thes 4:3)</p>
+            <h2 class="mb-5">BAPTISM, GIFTS AND FRUIT OF THE HOLY SPIRIT</h2>
+            <p>We believe that Baptism  in the Holy Spirit with tongues as initial evidence is for believers with signs following; also the operation of the gifts and bearing the fruit of Holy Spirit in the lives of believers (Mark 16:17; Acts 2:4; 1Cor 12:8 – 11; Gal 5:22,23).</p>
           </div>
         </div>
-      </div>
-      <div class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/communion.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">THE ORDINANCES (SACRAMENTS) OF THE CHURCH</h2>
@@ -123,26 +132,29 @@ include "serv/cmd.php";
           </div>
         </div>
       </div>
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_3.jpg');"></div>
-        <div class="text">
+        <div class="text order-2">
+          <div class="section-heading text-left">
+            <h2 class="mb-5"> DIVINE HEALING</h2>
+            <p>We believe that God’s will to heal is revealed in the Scriptures. However, we do not oppose medication by qualified medical practitioners (2Ki. 20:7; Matt. 9:12; Luke 10:34; Col 4:14) </p>
+          </div>
+        </div>
+        <div class="text bg-light">
           <div class="section-heading text-left">
             <h2 class="mb-5">BAPTISM, GIFTS AND FRUIT OF THE HOLY SPIRIT</h2>
             <p>We believe that Baptism  in the Holy Spirit with tongues as initial evidence is for believers with signs following; also the operation of the gifts and bearing the fruit of Holy Spirit in the lives of believers (Mark 16:17; Acts 2:4; 1Cor 12:8 – 11; Gal 5:22,23).</p>
           </div>
         </div>
       </div>
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/hero_bg_2.jpg');"></div>
-        <div class="text">
+        <div class="text order-2 bg-light">
           <div class="section-heading text-left">
-            <h2 class="mb-5"> DIVINE HEALING</h2>
-            <p>We believe that God’s will to heal is revealed in the Scriptures. However, we do not oppose medication by qualified medical practitioners (2Ki. 20:7; Matt. 9:12; Luke 10:34; Col 4:14) </p>
+            <h2 class="mb-5">THE SECOND COMING AND THE NEXT LIFE</h2>
+            <p> We believe in the Second coming of Christ and the resurrection of the dead, both the saved, and the unsaved;  they that are saved, to the resurrection of life; and the unsaved, to the resurrection of damnation (Mk, 13:26; Dan. 12:2; Jn. 5:28,29; Acts. 1:11; 10:42; Rom. 2:7 – 11; 6:23) </p>
           </div>
         </div>
-      </div>
-      <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_3.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">TITHES AND OFFERINGS</h2>
@@ -150,17 +162,8 @@ include "serv/cmd.php";
           </div>
         </div>
       </div>
+
       <div class="site-block-half d-flex">
-        <div class="image bg-image" style="background-image: url('images/hero_bg_2.jpg');"></div>
-        <div class="text">
-          <div class="section-heading text-left">
-            <h2 class="mb-5">THE SECOND COMING AND THE NEXT LIFE</h2>
-            <p> We believe in the Second coming of Christ and the resurrection of the dead, both the saved, and the unsaved;  they that are saved, to the resurrection of life; and the unsaved, to the resurrection of damnation (Mk, 13:26; Dan. 12:2; Jn. 5:28,29; Acts. 1:11; 10:42; Rom. 2:7 – 11; 6:23) </p>
-          </div>
-        </div>
-      </div>
-      <div class="site-block-half d-flex">
-        <div class="image bg-image order-2" style="background-image: url('images/hero_bg_2.jpg');"></div>
         <div class="text">
           <div class="section-heading text-left">
             <h2 class="mb-5">MARRIAGE AND FAMILY</h2>

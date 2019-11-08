@@ -37,6 +37,7 @@ include 'serv/cmd.php';
     
   </head>
   <body>
+
     <div class="bgAnn">
       <i class="fa fa-times fa-2x cls"></i>
       <div class="news_row">
@@ -62,6 +63,22 @@ include 'serv/cmd.php';
       </div>
     </div>
 
+    <div class="modelBox cardEffect" style="display: none;background: rgba(200,200,200);z-index: 100000000000;padding: 20px 10px; height: auto;position: fixed;top: 50%;left: 50%;transform: translate(-50%, -50%)">
+   
+          <center><p>
+          The We Care team of PENSA-UCC comprises of volunteered members, alumini and any other believer who has the willingness to be an instrument of blessing to the financially less priviledged in the church<br>
+          These members by their commitment contribute at least GH¢ 10.00 into a designated welfare account on monthly basis to help address the welfare concerns of the church<br>
+            You can register your membership by seeing the welfare committee chairman who is the vice president.
+      </p>
+      </center>
+      <center><div style="background: lightgreen;" class="clsWeCare btn">Close</div></center>
+
+    </div>
+<style>
+  .modelBox {
+    width: 350px;
+  }
+</style>
   
   <div class="site-wrap">
 
@@ -92,6 +109,16 @@ include 'serv/cmd.php';
         </div>
       </div>
 
+      <!-- <div class="site-blocks-cover" style="background-image: url(images/executives.jpg);background-size: 100%;background-repeat: no-repeat" data-aos="fade" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-7 text-center" data-aos="fade">
+             
+            </div>
+          </div>
+        </div>
+      </div> -->
+
     </div>
     <!--Slider Division-->
 
@@ -100,7 +127,7 @@ include 'serv/cmd.php';
         <div class="row">
           <div class="col-md-6 mx-auto text-center mb-5 section-heading">
             <h2 class="mb-5">Latest Sermon</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestiae repudiandae voluptatum dicta neque.</p>
+            <p></p>
           </div>
         </div>
 
@@ -138,7 +165,7 @@ include 'serv/cmd.php';
 
     <!--About with video-->
 
-    <div class="site-section">
+    <!-- <div class="site-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-5 mb-md-0">
@@ -161,7 +188,7 @@ include 'serv/cmd.php';
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--About with video-->
 
@@ -220,14 +247,15 @@ include 'serv/cmd.php';
       <div class="container">
         <div class="d-block d-md-flex">
           <div class="text-center p-4 item border-right">
-            <span class="flaticon-paper-plane display-3 mb-3 d-block text-primary"></span>
+            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
             <h2 class="h5 text-uppercase">We Care</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
-            <p><a href="beliefs.php">Read More <span class="icon-arrow-right small"></span></a></p>
+            <p>The We Care team of PENSA-UCC comprises of volunteered members, alumini and any other believer who has the willingness to be an instrument of blessing to the financially less priviledged in the church<br>
+            </p>
+            <p><a class="actWeCare">Read More <span class="icon-arrow-right small"></span></a></p>
           </div>
 
           <div class="text-center p-4 item">
-            <span class="flaticon-chat-1 display-3 mb-3 d-block text-primary"></span>
+            <span class="flaticon-chat display-3 mb-3 d-block text-primary"></span>
             <h2 class="h5 text-uppercase">Testimonies</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati reprehenderit explicabo quos fugit vitae dolorum.</p>
             <p><a href="beliefs.php">Read More <span class="icon-arrow-right small"></span></a></p>

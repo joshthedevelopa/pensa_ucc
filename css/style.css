@@ -1583,3 +1583,21 @@ a {
   color: black;
   text-align: justify;
 }
+
+@media (max-width: 750px) {
+  .news_row {
+    background: rgba(245, 245, 245, 0.8);
+    width: 100%;
+
+  }
+
+  .headImg > div {
+    border: 1px solid lightgray;
+    padding: 2px;
+  }
+  
+}
+
+
+
+
